@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    outline: none;
+}
+
+body{
+    background-color: beige;
+}
+
+nav{
+    background-color: 	rgb(150, 87, 172);
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.nav-link{
+    color: black;
+    margin: 0 1rem 0 0;
+    transition: all 0.3s;
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+main{
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+h2{
+    text-align: center;
+    margin: 3rem;
+}
+
+h1{
+    text-align: center;
+    margin: 3rem;
+}
+
+/* table design started from here  */
+.BooksView{
+  justify-content: center;
+  text-align: center;
+}
+
+.table-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+
+table{
+  width: 60%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid;
+  padding: 10px 7px  10px 7px;
+}
+
+.action-btn{
+  width: 30%;
+}
+
+td button{
+  margin: 3px;
+  width: 100px;
+  padding: 3px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+td button:hover{
+  background-color: green;
+  color: white;
+}
+
+
+.Delete-btn:hover{
+  background-color: red;
+  color: white;
+}
+
+
+
+
+
+/* table design ended from here. */
+
+/* button design started from here */
+.btn{
+  width: 100px;
+  background-color: green;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: goldenrod;
+  columns: black;
+}
+
+/* button design ended from here */
+
+
+
+/* Form design start from here */
+
+.form-containers{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+}
+
+
+.form-container{
+  width: 80%;
+  /* box-shadow: 1px 2px 5px 3px rgb(102, 101, 98); */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: aqua; */
+}
+
+.form-field input{
+  padding: 5px;
+  width: 250px;
+}
+
+.form-field{
+  margin: 10px;
+  padding: 5px;
+}
+
+/* Form design end here */
+
+
+
+/* Footer Design start from here */
+footer{
+    background-color: antiquewhite;
+    height:5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+/* Footer Design end here */
+
+
